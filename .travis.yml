@@ -1,3 +1,2 @@
 language: objective-c
-osx_image: xcode63
 script: "xcodebuild test -workspace Manuscript.xcworkspace -scheme Manuscript -destination \"platform=iOS Simulator,name=iPhone 5\""
